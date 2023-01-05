@@ -2,4 +2,4 @@
 require_once('HelloWorld.php');
 
 $hi = new Test\HelloWorld();
-echo $hi->sayHello('Maciek');
+echo $hi->sayHello('Palmiak');
