@@ -7,7 +7,7 @@ namespace Test;
 class HelloWorld
 {
     /**
-    @param int $name
+    @param string $name
     **/
     public function sayHello(string $name): string
     {
