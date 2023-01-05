@@ -1,4 +1,12 @@
 {
+    "scripts": {
+        "phpcs": "phpcs index.php HelloWorld.php -s --standard=PSR12",
+        "phpstan": "phpstan analyse index.php HelloWorld.php --level 3",
+        "test": [
+            "@phpcs",
+            "@phpstan"
+        ]
+    },
     "require-dev": {
         "phpstan/phpstan": "^1.9",
         "squizlabs/php_codesniffer": "^3.7"

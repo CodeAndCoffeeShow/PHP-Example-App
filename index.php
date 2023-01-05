@@ -1,15 +1,5 @@
 <?php
-declare(strict_types=1);
+require_once('HelloWorld.php');
 
-namespace Test;
-
-class HelloWorld
-{
-    /**
-    @param int $name
-    **/
-    public function sayHello(string $name): void
-    {
-        return 'Hello, ' . $name;
-    }
-}
+$hi = new Test\HelloWorld();
+echo $hi->sayHello('Maciek');
